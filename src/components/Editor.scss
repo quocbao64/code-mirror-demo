@@ -1,0 +1,13 @@
+.editor-container {
+    width: calc(100% / 3 - 40px);
+    margin: 10px;
+    .header-editor {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .CodeMirror {
+        border: 2px solid gray;
+    }
+}

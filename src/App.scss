@@ -1,0 +1,15 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    .editor-group {
+        display: flex;
+        justify-content: space-around;
+    }
+    .output {
+        width: calc(100% - 40px);
+        height: 500px;
+        margin: 20px;
+        border: 2px solid gray;
+    }
+}
